@@ -7,12 +7,10 @@ Spring 2025
 ---
 
 ## What the program does
-* Reads eight hard‑coded bytes in `inputBuf`.
-* Converts each byte to two **uppercase** ASCII hex characters.
-* Inserts a space after every byte except the last, then a newline.
-* Writes the resulting string to standard output.
+* This program reads eight hard‑coded bytes in `inputBuf` and then converst each byte to two **uppercase** ASCII hex characters.
+* it also puts in a space after every byte except the last and then a newline.
 
-Example run:
+An xxample run should look like:
 
 ```console
 $ ./hw11translate2Ascii
